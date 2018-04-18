@@ -4,69 +4,29 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="js/bounce.js" type="application/javascript"></script>
-  <script src="js/move.js" type="application/javascript"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   
-  <div class="container">
-    <div class="row">
-      
-  <div class="col-md">
-    
-      
-  
-  <div class="container">
-    <div class="box">
-<<<<<<< HEAD
-        <div class="bounce" id="bounce">
-            ExampleA
-        </div>
-        <div class="bounce2" id="bounce2">
-            ExampleB
-=======
+  <div class="box">
+ 
         <div class="bounce">
             <img src="img/dragonball.png">
         </div>
         <div class="bounce2">
            <img src="img/dragonball.png">
->>>>>>> 8891b5818322565a9c988cac27d2a4466da4ea9a
-        </div>
-    </div>
-     </div>
-    </div>
-      <div class="col-md">
-        
-      
-  <div class="container">
-  <br>
-  <hr>
-  <br>
-  
-  
-  <button onclick='document.getElementById("bounce").style.backgroundColor = "blue";'>Fuck it up</button>
-  
-  <button onclick='document.getElementById("bounce2").style.backgroundColor = "red";'>Fuck it up more</button>
-  
-  <button onclick='document.getElementById("bounce2").style.cssText = "background-color:pink;width:30vh;border-radius:50% dashed green;color:white;";'> Fuck it up just slightly more  </button>
-  
-  
-  </div>  
-    </div>
-    </div>
-    
       </div>
   
   
-
+</div>
 
 
     <script>
         var bounce = new Bounce();
-        bounce.init('.bounce', {gravity: 5});
+        bounce.init();
         var  bounce2 = new Bounce();
-        bounce2.init('.bounce2', {gravity: 15});
+        bounce2.init('.bounce2', {gravity: 5});
 
 
         function optellen(getal1, getal2) {
@@ -76,7 +36,7 @@
         var opgeteld = optellen(1, 2);
         console.log(opgeteld);
       
-        button
+      
         
         
     </script>

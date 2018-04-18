@@ -25,8 +25,8 @@ var Bounce = function(selector, settings) {
      * @type {number}
      */
     var speedY;
-  
-  /**
+
+    /**
      * The timer that updates the model and the screen
      * @type {object}
      */
@@ -108,4 +108,3 @@ var Bounce = function(selector, settings) {
         init: init
     };
 };
-
