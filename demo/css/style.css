@@ -1,9 +1,12 @@
 .bounce, .bounce2 {
     height: 100px;
-    width: 100px;
-    border: 1px black solid;
+    width: 20%;
+
     float: left;
     margin-right: 20px;
+}
+img {
+	width: 100%;
 }
 
 .box{
